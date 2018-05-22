@@ -4,10 +4,10 @@ $(document).ready(function(){
     var RandomNumber = Math.floor(Math.random() * 100 +1);
     $('#computer_score').text(RandomNumber);
 
-    var number1=Math.floor(Math.random() * 10 + 1);
-    var number2=Math.floor(Math.random() * 10 + 1);
-    var number3=Math.floor(Math.random() * 10 + 1);
-    var number4=Math.floor(Math.random() * 10 + 1);
+var number1=Math.floor(Math.random() * 10 + 1);
+var number2=Math.floor(Math.random() * 10 + 1);
+var number3=Math.floor(Math.random() * 10 + 1);
+var number4=Math.floor(Math.random() * 10 + 1);
 
 var winning = 0;
 var lossing = 0;
@@ -20,13 +20,13 @@ $('#loses').text(lossing);
 
 function reset(){
     RandomNumber = Math.floor(Math.random() * 100 +1);
-    console.log(RandomNumber);
-    $('#computer_score').html(RandomNumber);
+    console.log(RandomNumber)
+    $('#computer_score').text(RandomNumber);
 
-    var number1=Math.floor(Math.random() * 10 + 1);
-    var number2=Math.floor(Math.random() * 10 + 1);
-    var number3=Math.floor(Math.random() * 10 + 1);
-    var number4=Math.floor(Math.random() * 10 + 1);
+    number1=Math.floor(Math.random() * 10 + 1);
+    number2=Math.floor(Math.random() * 10 + 1);
+    number3=Math.floor(Math.random() * 10 + 1);
+    number4=Math.floor(Math.random() * 10 + 1);
     total =0;
     $('#your_score').text(total);
 }
@@ -34,11 +34,13 @@ function reset(){
 function wincount(){
     winning++;
     $('#wins').text(winning);
+    
     reset();
 }
 function losescount(){
     lossing++;
     $('#loses').text(lossing);
+    
     reset();
 }
 $('#image1').on('click', function(){
@@ -53,7 +55,7 @@ $('#image1').on('click', function(){
         losescount();
     }
 
-});
+})
    
 
 $('#image2').on('click', function(){
@@ -67,7 +69,7 @@ $('#image2').on('click', function(){
     else if(total > RandomNumber){
         losescount();
     }
-});   
+})   
     $('#image3').on('click', function(){
         total = total + number3;
         console.log("New total= " + total);
@@ -79,7 +81,7 @@ $('#image2').on('click', function(){
         else if(total > RandomNumber){
             losescount();
         }
-    });
+    })
     $('#image4').on('click', function(){
         total = total + number4;
         console.log("New total= " + total);

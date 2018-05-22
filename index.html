@@ -6,32 +6,33 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <h1 id="game_name">CRYSTAL COLLECTOR!</h1>
+        <h1 id="game_name">GAME OF THRONES!</h1>
         
         <div class="instructions">
-            <h3>GameInstructions:</h3><br>
-            <p>You will be given a random number at the start of the game.</p><br>
-            <p>There are four items below. By clicking on an item you will add a specific amount of points to your total score.</p><br>
-            <p>You win the game by matching your total score to random number, you lose the game if your score goes above the random number.</p><br>
-            <p>The value of each item is hidden from you until you click on it.</p><br>
-            <p>Each time when the game starts, the game will change the values of each item.</p>
+            <h3>Game Instructions:</h3><br>
+            <p>White walker's score will be automatically generated at the start of the game.</p><br>
+            <p>There are four team members on your side. By clicking on each of them you will add a specific amount of points to your total score.</p><br>
+            <p>You win the game by matching your total score to White walker's score, you lose the game if your score goes above the White walker's score.</p><br>
+            <p>The value of each team member is hidden from you until you click on it.</p><br>
+            <p>Each time when the game starts, the game will change the values of each team members.</p>
         </div>
         <br>
-        <p id="computer_score1">COMPUTER'S SCORE :<span id="computer_score"></span></p><br>
         <div id="images">
-                <img id="image1" src="assets/images/crystal5.jpeg">
-                <img id="image2" src="assets/images/strawberries.jpg">
-                <img id="image3" src="assets/images/flower.jpg">
-                <img id="image4" src="assets/images/crystal4.jpg">
+                <img id="image1" src="assets/images/john_snow.jpg">
+                <img id="image2" src="assets/images/sansa.jpg">
+                <img id="image3" src="assets/images/daenerys.jpg">
+                <img id="image4" src="assets/images/Arya.jpg">
         </div><br>
         <div class="score">
-                <h2 id="your_score1">YOUR TOTAL SCORE :<span id="your_score"></span></h2>
+                <h2 id="your_score1">YOUR TEAM SCORE :<span id="your_score"></span></h2>
                 </div>
-                
-                <div class="foot">
+                <br>
+                <img id="image0" src="assets/images/white_walker.jpg">
+        <p id="computer_score1">WHITE WALKER'S SCORE :<span id="computer_score"></span></p>
+
+                <br>
                         <p id="wins1">WINS:<span id="wins"></span></p>
                         <p id="loses1">LOSSES:<span id="loses"></span></p>
-                </div>
                 
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
