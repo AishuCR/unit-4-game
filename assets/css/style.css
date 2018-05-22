@@ -31,12 +31,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-.your_score{
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    text-align: center;
-}
 .score{
     color:white;
     background-color:deeppink;
@@ -45,14 +39,22 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
 }
-.computer_score{
+#computer_score1, #computer_score{
     color:white;
     background-color: deeppink;
     opacity:0.5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 26px;
+    text-align: center;
 
 }
+#your_score1{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    text-align: center;
+}
+
 .foot{
     border:thick solid red;
     height:50px;
@@ -61,7 +63,7 @@ body{
     left:0px;
     position:fixed;
 }
-.wins{
+#wins1{
     width:50%;
     background-color:black;
     color:white;
@@ -70,7 +72,7 @@ body{
     text-align: center;
     float:left;
 }
-.loses{
+#loses1{
     width:50%;
     height:50px;
     background-color:black;
