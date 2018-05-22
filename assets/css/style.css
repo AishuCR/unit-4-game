@@ -57,7 +57,10 @@ body{
 
 .foot{
     border:thick solid red;
+    background-color: black;
+    color:white;
     height:50px;
+    width:100%;
     bottom: 0px;
     right:0px;
     left:0px;
