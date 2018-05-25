@@ -5,9 +5,15 @@ body{
 #game_name{
     color:red;
     background-color:black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 48px;
     text-align: center;
+    height:50px;
+}
+h3{
+    font-size:36px;
+    text-decoration: purple underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .images{
     width:100%;
@@ -16,8 +22,9 @@ body{
 }
 #image0{
     
-    margin-left:30%;
-    margin-right:2%;
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
     border:thick black solid;
 }
 #image2, #image1, #image3, #image4{
