@@ -1,5 +1,5 @@
 
-var audio = new Audio("/Users/aishuarun/Desktop/Bootcamp_works/unit-4-game/assets/game_of_thrones.mp3");
+var audio = new Audio("assets/game_of_thrones.mp3");
 $(document).ready(function(){
     var RandomNumber = Math.floor(Math.random() * 100 +1);
     $('#computer_score').text(RandomNumber);
