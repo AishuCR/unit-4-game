@@ -1,3 +1,3 @@
-# unit-4-game
+# crystal-game
 
-[link to page](file:///Users/aishuarun/Desktop/Bootcamp_works/unit-4-game/index.html)
+file:///Users/aishuarun/Desktop/Bootcamp_works/unit-4-game/index.html
